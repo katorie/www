@@ -1,8 +1,18 @@
+body { color: #333333; }
+
 p { font-size: 14px; }
 
 /*見出し*/
-h1 { font-size: 26px; }
+.pageTitle { 
+    font-size: 26px; 
+    background-color: #F2F2E5;
+}
 
-h2 { font-size: 18px; }
+.heading-typeA { 
+    font-size: 18px; 
+    color: #349FA6;
+}
 
-h3 { font-size: 16px; }
+.heading-typeB { font-size: 16px; }
+
+.heading-typeC { font-size: 14px; }
