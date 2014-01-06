@@ -59,8 +59,8 @@ body {
 /* ----- サブカラム内の装飾 ----- */
 
 /*見出し*/
-#pageBodySub h3 {
-    font-size: 26px;
+#pageBodySub h2 {
+    font-size: 16px;
     line-height: 1.375;
     padding: 5px;
     margin-top: 0;
@@ -68,19 +68,21 @@ body {
 }
 
 /*おしらせ*/
-#pageBodySub .newList ul {
+#pageBodySub .newsList ul {
     list-style: none;
     padding: 0;
+}
 
-#pageBodysSub .newlist ul li {
+#pageBodysSub .newsList ul li {
     font-size: 12px;
-    line-height:1.5;
+    line-height: 1.5;
     margin: 10px 5px
 }
 
-#pageBodySub .newList ul li time {
+#pageBodySub .newsList ul li time {
     font-weight: bold;
-
+    display: block;
+}
 
 /* ----- メインカラム内の装飾 ----- */
 #pageBodyMain p { 
