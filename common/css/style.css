@@ -70,7 +70,7 @@ a:hover { color: #996600;}
     padding: 5px 0;
 }
 
-#pageHead .globalNavi ul li a:hoveri,
+#pageHead .globalNavi ul li a:hover,
 #pageHead .globalNavi ul li.current a {
     background-color: #F2F2E5;
 }
