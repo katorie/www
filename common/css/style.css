@@ -269,3 +269,16 @@ a:hover { color: #996600;}
     foot-size: 12px;
     line-height: 1.5;
 }
+
+/*--「つくったもの」一覧ページ*/
+#pageBodyMain .articleList {
+    border: solid 1px #CCCCCC;
+    margin-bottom: 30px;
+}
+
+#pageBodyMain .articleList a {
+    display: block;
+    padding: 10px;
+    color: inherit
+    text-decoration: none;
+}
