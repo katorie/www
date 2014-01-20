@@ -352,3 +352,69 @@ a:hover { color: #996600;}
 #pageBodyMain .artcileList a .articleListImage img {
     vertical-align: bottom;
 }
+
+/*--トップページの内容--*/
+/*メインビジュアル*/
+#pagebody .mainVisual {
+    positon: relative;
+}
+
+#pageBody .mainVisual img {
+    vertical-align: bottom;
+}
+
+#pageBody .mainVisual .mainvisualText {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.4);
+    width: 400px;
+    padding: 15px 25px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#pageBodyMain .mainVisual .mainVisualText h1 {
+    font-size: 26px;
+    line-height: 1.231;
+    margin: 0;
+}
+
+#pageBodyMain .mainVisual .mainVisualText p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/*「つくったもの」INDEX*/
+#pageBody .portfolioIndex {
+    margin-top: 40px;
+}
+
+#pageBody .potfolioIndex:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageBody .portfolioIndex article {
+    width: 30px;
+    float: left;
+    margin-left: 40px;
+}
+
+#pagebody .portfolioIndex article:first-child {
+    margin-left: 0;
+}
+
+#pageBody .portfolioIndex article h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#pageBody .portfolioIndex article p {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
