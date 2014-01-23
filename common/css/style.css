@@ -1,8 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300);
 
-body { 
-    color: #333333; 
-}
+body { color: #333333; }
 
 /*リンク*/
 a { color: #999966; }
@@ -145,7 +143,7 @@ a:hover { color: #996600;}
 #pageBodysSub .newsList ul li {
     font-size: 12px;
     line-height: 1.5;
-    margin: 10px 5px
+    margin: 10px 5px;
 }
 
 #pageBodySub .newsList ul li time {
@@ -203,7 +201,6 @@ a:hover { color: #996600;}
 }
 
 #pageBodyMain table caption {
-    background-color: #EEEEEE;
     text-align: left;
     font-weight: bold;
 }
@@ -232,7 +229,7 @@ a:hover { color: #996600;}
 
 #pageBodyMain .heading-typeB { 
     font-size: 16px; 
-    border-left: solid 5px #E3E4D9;
+    border-left: 5px solid  #E3E4D9;
     padding-left: 10px;
     line-height:1.375;
 }
@@ -266,7 +263,7 @@ a:hover { color: #996600;}
 }
 
 #pageBodyMain .creditUnit p {
-    foot-size: 12px;
+    font-size: 12px;
     line-height: 1.5;
 }
 
@@ -294,7 +291,7 @@ a:hover { color: #996600;}
     background-color: #058BA9;
     padding: 10px 20px;
     border-radius: 5px;
-    background-image: -webkit-linear-grandient(top, #92CDDB, #058BA9);
+    background-image: -webkit-linear-gradient(top, #92CDDB, #058BA9);
     background-image: linear-gradient(to bottom, #92CDDB, #058BA9);
     border: 1px solid #058BA9;
     box-shadow: 1px 1px 0 #9DDDED inset;
@@ -315,7 +312,7 @@ a:hover { color: #996600;}
 #pageBodyMain .articleList a {
     display: block;
     padding: 10px;
-    color: inherit
+    color: inherit;
     text-decoration: none;
 }
 
@@ -441,15 +438,15 @@ a:hover { color: #996600;}
 }
 
 #pageBody .news table {
-    width: 10%;
+    width: 100%;
 }
 
 #pageBody .news table tr th,
 #pageBody .news table tr td {
     font-size: 14px;
     line-height: 1.429;
-    border-bottom: 1px dotted #CCCCCC;
     padding: 10px 0;
+    border-bottom: 1px dotted #CCCCCC;
     vertical-align: top;
 }
 
