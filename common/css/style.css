@@ -111,6 +111,8 @@ a:hover { color: #996600;}
     content: "";
     clear: both;
     display: block;
+    height: 0px;    /*サンプルサイトのCSSをみて追記してみた*/
+    visibility: hidden; /*サンプルサイトのCSSをみて追記してみた*/
 }
 
 #pageBodyMain {
